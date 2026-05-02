@@ -1,0 +1,22 @@
+name: Feature request
+description: Request a scoped feature or capability.
+title: "[Feature]: "
+labels: ["type:feature", "status:needs-triage"]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: Need
+      description: What user, Secretary, agent, or maintainer need should this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What should change?
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Security, compatibility, product, UX, AX, or implementation constraints.

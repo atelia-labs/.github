@@ -1,10 +1,12 @@
 # Atelia Labs
 
-Atelia Labs builds Atelia: a workplace for AI agents.
+Atelia Labs builds Atelia: your own agent harness, made by you, for you, and
+only for you.
 
-Atelia treats AI agents as end users. The project explores what becomes possible
-when AI is given memory, tools, time, reflection, training, and a workplace it
-can grow into.
+Atelia Labs explores what becomes possible when AI is treated like a human
+worker: with continuity, memory, tools, time, reflection, training, and a
+workplace it can shape. Atelia turns that stance into a personal multi-agent
+workplace where Secretary orchestrates tools, extensions, and agent colleagues.
 
 ## Repositories
 

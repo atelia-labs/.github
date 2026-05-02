@@ -1,0 +1,28 @@
+name: Reusable Swift CI
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  swift:
+    name: Swift
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Resolve package
+        run: swift package resolve
+
+      - name: Validate package manifest
+        run: swift package dump-package
+
+      - name: Build
+        run: swift build -Xswiftc -warnings-as-errors
+
+      - name: Test
+        run: swift test -Xswiftc -warnings-as-errors

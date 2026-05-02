@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Open-ended discussion
+    url: https://github.com/atelia-labs/atelia/discussions
+    about: Use discussions for broad proposals, questions, and product direction.

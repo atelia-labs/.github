@@ -16,3 +16,12 @@ future Atelia Labs projects.
 
 Atelia, the product, expresses that stance as a personal agent harness: a
 workplace made by you, for you, and only for you.
+
+## Operating Docs
+
+- [Operations](OPERATIONS.md)
+- [Linear](LINEAR.md)
+- [Labels](LABELS.md)
+- [Triage](TRIAGE.md)
+- [Rulesets](RULESETS.md)
+- [Releases](RELEASES.md)
